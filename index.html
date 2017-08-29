@@ -1,32 +1,160 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-        <title>Moringa CORE Selection</title>
-        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-        <link href="css/styles.css" rel="stylesheet" type="text/css">
-        <script src="js/jquery-3.2.1.js"></script>
-        <script src="js/scripts.js"></script>
-    </head>
-<body>
+  <title>Moringa CORE PATH selection</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body, html {
+      position: relative;
+      height: 100%;
+      width: 100%;
+  }
+  #section1 {padding-top:50px;height:100%;color: #fff; background-color: #1E88E5;}
+  #section41 {padding-top:50px;height:100%;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;height:100%;color: #fff; background-color: #009688;}
+  #section2 {padding-top:50px;height:100%;color: #fff; background-color: #673ab7;}
+  #section3 {padding-top:50px;height:25%;color: #fff; background-color: #ff9800;}
+  
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-    
-    {% comment %} this is where the navigation bar and the web applicaiton logos will be {% endcomment %}
-    <div class="section1"></div>
+<!--start of the navigation scrollable bar-->
 
-    {% comment %} this is the infirmation part of the website holding the two part: Python and Kava information just before the selection begins {% endcomment %}
-    <div class="section2"></div>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Moringa Core Selection Application</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Home</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Info<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">Java</a></li>
+              <li><a href="#section42">Python</a></li>
+            </ul>
+          </li>
+          <li><a href="#section2">Selection</a></li>
+          <li><a href="#section3">Footer</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+<!--end of the scrollable top navigation bar-->
 
-    {% comment %} this is the main feature in the website where all the decision happens {% endcomment %}
-    <div class="section3"></div>
+<!--start of the home page of the website-->
+<div id="section1" class="container-fluid">
+  <h1>HOME</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<!--end of the home page(the top most part of the website)-->
 
-    {% comment %} this is the footer containing the about us, and contact information icase of further research by the user {% endcomment %}
-    <div class="section4"></div>
+<!--start of the information part holding both the Python and Java options-->
+<div id="section41" class="container-fluid">
+  <h1 class="text-center">JAVA</h1>
+  <div class="row"> 
+ 
+ <div class="col-sm-6">
+     <h2> Advantages of java </h2>
+
+<p> <strong> Simple: </strong> Java was designed to be easy to use, write, compile, debug, and learn than other programming languages. Java is much simpler than C++ because Java uses automatic memory allocation and garbage collection.</p>
+
+<p><strong> Object-Oriented: </strong> Allows you to create modular programs and reusable code.</p>
+
+<p> <strong> Platform-Independent: </strong> Ability to move easily from one computer system to another</p>
+
+<p> <strong> Distributed: </strong> Designed to make distributed computing easy with the networking capability that is inherently integrated into it.</p>
+
+<p> <strong> Secure: </strong> The Java language, compiler, interpreter, and runtime environment were each developed with security in mind.</p>
+
+<p> <strong> Allocation </strong>: Java has the feature of Stack allocation system. It helps the data to be stored and can be restored easily.</p>
+
+<p> <strong> Multithreaded: </strong> The capability for a program to perform several tasks simultaneously within a program.</p>
+ </div>
+ <div class="col-sm-6">
+     <h2>Disadvantages of Java:</h2>
+
+<p> <strong> Performance: </strong> SIgnificantly slower and more memory-consuming than natively compiled languages such as C or C++.</p>
+
+<p> <strong> Look and feel: </strong> The default look and feel of GUI applications written in Java using the Swing toolkit is very different from native applications.</p>
+
+<p> <strong> Single-paradigm language: </strong> The addition of static imports in Java 5.0 the procedural paradigm is better accommodated than in earlier versions of Java.</p>
+     </div>
+ </div>
+</div>
 
 
+<div id="section42" class="container-fluid">
+  <h1 class="text-center">PYTHON</h1>
+ <div class="row"> 
+ 
+ <div class="col-sm-6">
+     <h2>WHY PYTHON</h2>
 
+<p>Python is easy to learn – uses less lines of code there is no verbose</p>
+<p>Lets you build more functions write less code (increased perfomance maybe)</p>
+<p>Its perfect for building prototypes since it has a short development cycle</p>
+<p>Python is flexible as it integrates well with other languages</p>  
 
+<ul>
+<li> Cpython for C integration</li>
+<li>jpython for JVM interaction</li>
+<li>Iron python for .NET and C#</li>
+<li>PyobjC  for Obective C and toolkits</li>
+</ul>
 
+<p>Has a ton of resources/Modules, has tons of frameworks like Tornado, Django, Flask and Pyramid.</p>
+<p>Its great if you are on a budget quick to deployment</p>
+<p>Its too useful useful in IOT industry.</p>
+<p>Used in blue chip industry such as paypal, yelp, reddit etc</p>p>
+<p> Good for system administrator for automation and network admins.</p>
+<p> Its open source and has a wide community out there.</p>
+<p> Supports best practices for SEO.</p>
+<p> Its more secure than php, it abstracts your actual code to dynamically sending information to web browser through templates.</p> 
+
+ </div>
+ <div class="col-sm-6">
+     <p><h2>DISADVANTAGES OF PYTHON</h2>
+<p> No corporate backing.</p>
+<p>Its slower on larger projects considering it is interpreted rather than compiled.</p>
+<p>	It is not advisable for multi-threaded applications.</p>
+<p>It is slower, needs interpreter first to run.</p>
+<p>It is not statically typed- you can be sure if a function will run or expected until the whole program runs, not advisable for large chunks of data.<p/>
+<p>Doesn’t manipulate computer memory directly.</p></p>
+     </div>
+ </div>
+</div>
+<!--end of the information part of the website-->
+
+<!--start of the selection part of the website-->
+<div id="section2" class="container-fluid">
+  <h1>PATH SELECTION</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<!--end of the selection part of the website-->
+
+<!--footer starts here-->
+
+<div id="section3" class="container-fluid">
+  <h1>FOOTER</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
 
 </body>
-
 </html>
