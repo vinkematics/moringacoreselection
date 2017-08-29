@@ -11,6 +11,7 @@ body,
             height: 100%;
             color: #000;
             background-color: #b3d1ff;
+            
         }
 
         #java {
@@ -18,6 +19,7 @@ body,
             height: 100%;
             color: #fff;
             background-color: #7070db;
+            font-size: 20px;
         }
 
         #python {
@@ -25,6 +27,7 @@ body,
             height: 100%;
             color: #000;
             background-color: #b3d1ff;
+            font-size: 20px;
         }
 
         #select {
