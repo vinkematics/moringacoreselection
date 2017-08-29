@@ -1,4 +1,47 @@
-div {
-    border: 2px solid;
-    border-radius: 15px;
+
+body,
+        html {
+            position: relative;
+            height: 100%;
+            width: 100%;
+        }
+
+        #home {
+            padding-top: 50px;
+            height: 100%;
+            color: #000;
+            background-color: #b3d1ff;
+        }
+
+        #java {
+            padding-top: 50px;
+            height: 100%;
+            color: #fff;
+            background-color: #7070db;
+        }
+
+        #python {
+            padding-top: 50px;
+            height: 100%;
+            color: #000;
+            background-color: #b3d1ff;
+        }
+
+        #select {
+            padding-top: 50px;
+            height: 100%;
+            color: #fff;
+            background-color: #7070db;
+        }
+
+        #footer {
+            padding-top: 50px;
+            height: 25%;
+            color: #000;
+            background-color: #b3d1ff;
+        }
+.title
+{
+    font-size: 44px;
+    font-family: cursive;
 }
