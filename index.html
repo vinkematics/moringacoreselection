@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel='shortcut icon' type='image/x-icon' href='images/braincode.ico' />
+    <title>Moringa CORE PATH selection</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+
+
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <!--start of the navigation scrollable bar-->
+
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+                <a class="navbar-brand" href="#">M-Core Path Choce</a>
+            </div>
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#home">Home</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Info<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#java">Java</a></li>
+                                <li><a href="#python">Python</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#select">Selection</a></li>
+                        <li><a href="#footer">Footer</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--end of the scrollable top navigation bar-->
+
+    <!--start of the home page of the website-->
+    <div id="home" class="container-fluid">
+
+        <center><img src="images/braincode.png" alt="BrainCode">
+            <center>
+                <P class="title text-center">M-CORE PATH CHOICE</P>
+                <center>
+                    <p>A web application to help you choose between fullstack and Android</p>
+                    <center>
+    </div>
+    <!--end of the home page(the top most part of the website)-->
+
+    <!--start of the information part holding both the Python and Java options-->
+    <div id="java" class="container-fluid">
+        <h1 class="text-center">JAVA</h1>
+        <div class="row">
+
+            <div class="col-sm-6">
+                <h2> Advantages of java </h2>
+
+                <p> <strong> Simple: </strong> Java was designed to be easy to use, write, compile, debug, and learn than other programming languages. Java is much simpler than C++ because Java uses automatic memory allocation and garbage collection.</p>
+
+                <p>- <strong> Object-Oriented: </strong> Allows you to create modular programs and reusable code.</p>
+                <p> -<strong> Platform-Independent: </strong> Ability to move easily from one computer system to another</p>
+                <p> -<strong> Distributed: </strong> Designed to make distributed computing easy with the networking capability that is inherently integrated into it.</p>
+                <p> -<strong> Secure: </strong> The Java language, compiler, interpreter, and runtime environment were each developed with security in mind.</p>
+                <p> -<strong> Allocation </strong>: Java has the feature of Stack allocation system. It helps the data to be stored and can be restored easily.</p>
+                <p> -<strong> Multithreaded: </strong> The capability for a program to perform several tasks simultaneously within a program.</p>
+            </div>
+            <div class="col-sm-6">
+                <h2>Disadvantages of Java:</h2>
+
+                <p> <strong>- Performance: </strong> SIgnificantly slower and more memory-consuming than natively compiled languages such as C or C++.</p>
+
+                <p> <strong>- Look and feel: </strong> The default look and feel of GUI applications written in Java using the Swing toolkit is very different from native applications.</p>
+
+                <p> <strong>- Single-paradigm language: </strong> The addition of static imports in Java 5.0 the procedural paradigm is better accommodated than in earlier versions of Java.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="python" class="container-fluid">
+        <h1 class="text-center">PYTHON</h1>
+        <div class="row">
+
+            <div class="col-sm-6">
+                <h2>WHY PYTHON</h2>
+
+                <p>- Python is <strong>easy to learn</strong> – uses less lines of code there is no verbose</p>
+                <p>- Lets you build more functions write <strong>less code</strong></p>
+                <p>- Its perfect for <strong>building prototypes</strong> since it has a short development cycle</p>
+                <p>- Python is <strong>flexible</strong> as it integrates well with other languages for example Cpython with C</p>
+                <p>- Has a ton of <strong>resources/Modules</strong>, has tons of frameworks like Tornado, Django, Flask and Pyramid.</p>
+                <p>- Used in <strong>blue chip</strong> industry such as paypal, yelp, reddit etc</p>
+                <p>- It's good for system administrator and <strong>automating</strong> network tasks..</p>
+                <p>- Its <strong>open source</strong> and has big development community.</p>
+                <p>- Its <strong>more secure</strong> than php, it abstracts your actual code to dynamically sending information to web browser through templates.</p>
+
+            </div>
+            <div class="col-sm-6">
+                <h2>DISADVANTAGES OF PYTHON</h2>
+                <p>- No corporate backing.</p>
+                <p>- Its slower on larger projects considering it is interpreted rather than compiled.</p>
+                <p>- It is not advisable for multi-threaded applications and concurrency.</p>
+                <p>- It is slower, needs interpreter first to run.</p>
+                <p>- It is not statically typed- you can be sure if a function will run or expected until the whole program runs, not advisable for large chunks of data.</p>
+                <p>- Doesn’t manipulate computer memory directly.</p>
+            </div>
+        </div>
+    </div>
+    <!--end of the information part of the website-->
+
+
+    <!--start of the selection part of the website-->
+    <div id="select" class="container-fluid">
+        <div class="toplevel">
+            <p>What are your interests?</p>
+            <button id="gamedev" class="btn btn-primary btn-lg" onclick="gamedev()">Game Development</button>
+            <button id="webdev" class="btn btn-primary btn-lg">Web Development</button>
+            <button id="net" class="btn btn-primary btn-lg">Networking</button>
+            <button id class="btn btn-primary btn-lg">For Fun</button>
+            <button class="btn btn-primary btn-lg">Database Management</button>
+        </div>
+        <div class="gamedev">
+            <p>What type of games do you play to make?</p>
+            <button class="btn btn-primary btn-lg">Desktop Games</button>
+            <button class="btn btn-primary btn-lg">Multiplatform Games</button>
+            <button class="btn btn-primary btn-lg">Android games</button>
+        </div>
+        <div class="webdev">
+            <p>What types of websites will you be building?</p>
+            <button class="btn btn-primary btn-lg">Dynamic Websites</button>
+            <button class="btn btn-primary btn-lg">small Websites</button>
+        </div>
+        <div class="smallweb">
+            <p>what matters to you the most?</p>
+            <button class="btn btn-primary btn-lg">Faster Development Times</button>
+            <button class="btn btn-primary btn-lg">Upgradability and scalability of DB</button>
+        </div>
+        <div class="dbmngnt">
+            <p>What matters to you the most?</p>
+            <button class="btn btn-primary btn-lg">Big Data</button>
+            <button class="btn btn-primary btn-lg">scalability of DB</button>
+            <button class="btn btn-primary btn-lg">DB tasks Automation</button>
+            <button class="btn btn-primary btn-lg">Different type DB access</button>
+        </div>
+        <div class="output"> </div>
+    </div>
+    <!--end of the selection part of the website-->
+
+
+    <!--footer starts here-->
+
+    <div id="footer" class="container-fluid">
+        <h1>FOOTER</h1>
+        <p>footer, yiiieeey</p>
+    </div>
+
+
+</body>
+
+</html>
