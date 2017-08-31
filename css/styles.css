@@ -3,6 +3,8 @@ body,
             position: relative;
             height: 100%;
             width: 100%;
+             font-family: cursive;
+
         }
 
         #home {
@@ -10,6 +12,7 @@ body,
             height: 100%;
             color: #000;
             background-color: #b3d1ff;
+            margin-top: 20px;
             
         }
 
@@ -45,5 +48,11 @@ body,
 .title
 {
     font-size: 44px;
-    font-family: cursive;
+    
+   
+}
+.zen{
+    font-size: 30px;
+    margin-right: 15%;
+    margin-left: 15%;
 }
