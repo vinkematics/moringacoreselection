@@ -41,7 +41,7 @@ body,
 
         #footer {
             padding-top: 50px;
-            height: 25%;
+            height: 35%;
             color: #000;
             background-color: #b3d1ff;
         }
@@ -55,4 +55,21 @@ body,
     font-size: 30px;
     margin-right: 15%;
     margin-left: 15%;
+}
+.real{
+    font-size: 16px;
+}
+.examples2{
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    margin-right: 20px;
+   
+}
+.examples1{
+    font-size: 20px;
+   
+}
+.examples1 a{
+    color: darkred;
 }
