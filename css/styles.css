@@ -1,0 +1,76 @@
+body,
+html {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    font-family: cursive;
+}
+
+#home {
+    padding-top: 50px;
+    height: 100%;
+    color: #000;
+    background-color: #b3d1ff;
+    margin-top: 20px;
+}
+
+#java {
+    padding-top: 50px;
+    height: 100%;
+    color: #fff;
+    background-color: #7070db;
+    font-size: 20px;
+}
+
+#python {
+    padding-top: 50px;
+    height: 100%;
+    color: #000;
+    background-color: #b3d1ff;
+    font-size: 20px;
+}
+
+#select {
+    padding-top: 50px;
+    height: 100%;
+    color: #fff;
+    background-color: #7070db;
+}
+
+#footer {
+    padding-top: 50px;
+    height: 30%;
+    color: #000;
+    background-color: #b3d1ff;
+}
+
+.title {
+    font-size: 44px;
+}
+
+.zen {
+    font-size: 34px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.real {
+    font-size: 16px;
+}
+
+.examples2 {
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.examples1 {
+    padding-top: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.examples1 a {
+    color: black;
+}
