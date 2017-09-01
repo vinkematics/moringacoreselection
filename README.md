@@ -1,6 +1,6 @@
 # Project Title
 
-M-Core path selector
+M-CORE PATH Choice
 
 ## Project details
 
@@ -10,6 +10,8 @@ This is a web app for potential students of Moringa Core who have already underg
 <ul>
 <li>Browser</li>
 <li>internet</li>
+</ul>
+
 
 
 ## Deployment
@@ -22,6 +24,9 @@ Site was deployed to <a href="https://vinkematics.github.io/moringacoreselection
 * JavaScript
 * JQuery
 * An IDE
+
+## Known Bugs
+After selection you need to manually reload the page to go back to home page or to start the test again
 
 ## Authors
 
